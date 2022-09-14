@@ -126,7 +126,7 @@
 
 ???+example "Cas 2"
     ???+info "Situation"
-        Nous avons un packet de données de ^^**2 Giga octets**^^, qui doit aller du routeur **R1** au routeur **R5**. Quelle route va emprunter le paquet de données ?
+        Nous avons un groupe de paquets de données de ^^**2 Giga octets**^^, qui doit aller du routeur **R1** au routeur **R5**. Quelle route va emprunter le paquet de données ?
     
     === "Base"
         ???+question "Cas de base"
