@@ -42,15 +42,15 @@
 [^an]: [RFC1247](https://www.rfc-editor.org/rfc/rfc1247)
 [^wiki1]: [Wikipedia: Open Shortest Path First](https://fr.wikipedia.org/wiki/Open_Shortest_Path_First)
 
-### Spécificitées techniques
+### Spécificités techniques
 
-???+TLDR "Spécificitées techniques"
+???+TLDR "Spécificités techniques"
     
-    ???+note "Spécificitées techniques"
+    ???+note "Spécificités techniques"
         
         |1|2|3|
         |:-:|:-:|:-:|
-        |Le protocol établi des aires avec plusieurs routeurs regroupés|Chaque aires établient les meilleurs routes vers les sorties avec les messages `hello`|Prend en compte, le nombre de sauts, la vitesse du réseau|
+        |Le protocole établi des aires avec plusieurs routeurs regroupés|Chaque aires établient les meilleurs routes vers les sorties avec les messages `hello`|Prend en compte, le nombre de sauts, la vitesse du réseau|
         |**4**|**5**|**6**|
         |Peut diviser la charge sur plusieurs routes à la fois|Sauts illimités|Plus optimisé pour application à grande ampleur|
 

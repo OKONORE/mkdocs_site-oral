@@ -29,13 +29,13 @@
 [^an]: [RFC1058](https://www.rfc-editor.org/rfc/rfc1058)
 [^wiki1]: [Wikipedia: Routing Information Protocol](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 
-### Spécificitées techniques
+### Spécificités techniques
 
-???+TLDR "Spécificitées techniques"
-    ???+warning "Spécificitées techniques"
+???+TLDR "Spécificités techniques"
+    ???+warning "Spécificités techniques"
         Ce protocole est **ancien** (1988) il a donc un fonctionnement **très rudimentaire** et **très peu optimisé**.
     
-    ???+note "Spécificitées techniques"
+    ???+note "Spécificités techniques"
         
         |1|2|3|
         |:-:|:-:|:-:|
