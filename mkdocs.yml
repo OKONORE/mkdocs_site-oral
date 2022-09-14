@@ -1,7 +1,7 @@
 site_name: Protocoles RIP et OSPF
 edit_uri: tree/main/docs/
-repo_url: https://github.com/OKONORE/mkdocs_site-oral
-repo_name: mkdocs_site-oral
+repo_url: https://github.com/OKONORE/oral_RIP_OSPF
+repo_name:  oral_RIP_OSPF
 site_description: Protocoles RIP et OSPF
 docs_dir: docs
 copyright: |
@@ -10,6 +10,9 @@ copyright: |
 
 nav:
     - index.md
+    - RIP.md
+    - OSPF.md
+    - conclusion.md
                                     # JUSTIFICATIONS
 theme:
     name: material
@@ -97,13 +100,6 @@ markdown_extensions:
         toc_depth: 3
 
 extra:
-    alternate:
-      - name: French
-        link: ""
-        lang: fr
-      - name: English
-        link: ""
-        lang: en
     social:
         - icon: fontawesome/brands/github # ou autre
           link: https://github.com/OKONORE
