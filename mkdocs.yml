@@ -47,11 +47,6 @@ theme:
         - header.autohide
         - navigation.tracking
 
-plugins:
-  - mkdocs-video:                   # plugin pour ajouter des videos
-      video_autoplay: False
-  - search
-
 markdown_extensions:
     - meta
     - abbr
