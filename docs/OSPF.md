@@ -55,7 +55,7 @@
         |Peut diviser la charge sur plusieurs routes à la fois|Sauts illimités|Plus optimisé pour application à grande ampleur|
 
     ???+info "En-tête RIP"
-        ![image](/images/ospf.png)
+        ![image](images/ospf.png)
         { align=center }
 
 ## Application du protocole

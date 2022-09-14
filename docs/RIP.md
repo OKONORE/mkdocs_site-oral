@@ -46,7 +46,7 @@
     [^RIP2]: [RFC1388](https://datatracker.ietf.org/doc/html/rfc1388)
 
     ???+info "En-tête RIP"
-        ![image](/images/rip.png)
+        ![image](images/rip.png)
         { align=center }
 
 ## Application du protocole
