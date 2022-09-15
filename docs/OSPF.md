@@ -34,7 +34,7 @@
 
 
     ```                     
-    |Crée en **1997**[^an] Le **Protocole OSPF** est un protocole de routage de données créer pour remplacer le protocole RIP. Pour ça, il crée des aires où se regroupent plusieurs routeurs. Ensuite, il isole chacunes des aires, et au sein de chacunes, cartographies les meilleurs routes pour chaque sortie grâce à un message `hello` envoyé à touts les appareils de l'aire. Après il lui suffit de savoir quels aires sont connectées a quelles aires afin de transporter les paquets. |
+    |Créé en **1997**[^an] Le **Protocole OSPF** est un protocole de routage de données créé pour remplacer le protocole RIP. Pour ça, il crée des aires où se regroupent plusieurs routeurs. Ensuite, il isole chacunes des aires, et au sein de chacunes, cartographie les meilleurs routes pour chaque sortie grâce à un message `hello` envoyé à tous les appareils de l'aire. Après il lui suffit de savoir quels aires sont connectées a quelles aires afin de transporter les paquets. |
 
     Wikipedia[^wiki1]
 
@@ -50,11 +50,11 @@
         
         |1|2|3|
         |:-:|:-:|:-:|
-        |Le protocole établi des aires avec plusieurs routeurs regroupés|Chaque aires établient les meilleurs routes vers les sorties avec les messages `hello`|Prend en compte, le nombre de sauts, la vitesse du réseau|
+        |Le protocole établit des aires avec plusieurs routeurs regroupés|Chaque aire établient les meilleures routes vers les sorties avec les messages `hello`|Prend en compte, le nombre de sauts, la vitesse du réseau|
         |**4**|**5**|**6**|
-        |Peut diviser la charge sur plusieurs routes à la fois|Sauts illimités|Plus optimisé pour application à grande ampleur|
+        |Peut diviser la charge sur plusieurs routes à la fois|Sauts illimités|Plus optimisé pour application de grande ampleur|
 
-    ???+info "En-tête RIP"
+    ???+info "En-tête OSPF"
         ![image](images/ospf.png)
         { align=center }
 
@@ -64,7 +64,7 @@
 
 ???+example "Cas 1"
     ???+info "Situation"
-        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R17**. Quelle route va emprunter le paquet de données ? (Toutes les connexion sont à 1 Gbits/s)
+        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R17**. Quelle route va emprunter le paquet de données ? (Toutes les connexions sont à 1 Gbits/s)
     
     === "Base"
         ???+question "Cas de base"
@@ -111,7 +111,7 @@
 
     === "étape 1"
         ???+info "Information"
-            Il faut déjà regarder à l'échelle des aires: ici, nous irons de `aire 1 -> aire 2 -> aire 4`
+            Il faut déjà regarder à l'échelle des aires: ici, nous irons via: `aire 1 -> aire 2 -> aire 4`
 
         ???+question "étape 1"
  
@@ -157,7 +157,7 @@
 
     === "étape 2"
         ???+info "Information"
-            Désormais il faut regarder au seins de chaque aires, quelles sont les routes le plus rapides entre chaque routeur entrant/sortant
+            Désormais il faut regarder au sein de chaque aire, quelles sont les routes le plus rapides entre chaque routeur entrant/sortant
 
         ???+done "étape 1"
  
@@ -210,7 +210,7 @@
 
 ???+example "Cas 2"
     ???+info "Situation"
-        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R17**. Quelle route va emprunter le paquet de données ? (Toutes les connexion ne sont pas à 1 Gbits/s)
+        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R17**. Quelle route va emprunter le paquet de données ? (Toutes les connexions ne sont pas à 1 Gbits/s)
     
     === "Base"
         ???+question "Cas de base"
@@ -257,7 +257,7 @@
 
     === "étape 1"
         ???+info "Information"
-            Il faut déjà regarder à l'échelle des aires: ici, nous irons de `aire 1 -> aire 2 -> aire 4`
+            Il faut déjà regarder à l'échelle des aires: ici, nous irons via: `aire 1 -> aire 2 -> aire 4`
 
         ???+question "étape 1"
  
@@ -303,7 +303,7 @@
 
     === "étape 2"
         ???+info "Information"
-            Désormais il faut regarder au seins de chaque aires, quelles sont les routes le plus rapides entre chaque routeur entrant/sortant
+            Désormais il faut regarder au sein de chaque aire, quelles sont les routes le plus rapides entre chaque routeur entrant/sortant
 
         ???+done "étape 1"
  

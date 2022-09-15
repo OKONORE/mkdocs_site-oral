@@ -21,11 +21,14 @@
     5
     end
     ```                     
-    |Crée en **1988**[^an] Le **Protocole RIP** est un protocole de routage de données prenant en paramètre le **nombre de sauts** entre les appareils pour définir les meilleurs chemins quelque soit la vitesse, la distance ou la qualitée des appareils sur le chemin. |
+    |Créé en **1988**[^an] Le **Protocole RIP** est un protocole de routage de données prenant en paramètre le **nombre de sauts** entre les appareils pour définir les meilleurs chemins quelque soit la vitesse, la distance ou la qualitée des appareils sur le chemin. |
 
-    Wikipedia[^wiki1]
+    ???+tldr "La métrique"
+        La métrique est le nom donnée à la "distance" qui séparent un routeur et la destination 
 
-*[RIP]: Routing Information Protocole
+    **Wikipedia: Routing Information Protocol**[^wiki1]
+
+*[RIP]: Routing Information Protocol
 [^an]: [RFC1058](https://www.rfc-editor.org/rfc/rfc1058)
 [^wiki1]: [Wikipedia: Routing Information Protocol](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
 
@@ -55,7 +58,7 @@
 
 ???+example "Cas 1"
     ???+info "Situation"
-        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R5**. quelle route va emprunter le paquet de données ?
+        Nous avons un packet de données qui doit aller du routeur **R1** au routeur **R5**. Quelle route va emprunter le paquet de données ?
     
     === "Base"
         ???+question "Cas de base"
@@ -120,7 +123,7 @@
             style 1 fill:#BF0000,stroke:#000,stroke-width:4px,color:#fff
             style 5 fill:#0000FF,stroke:#000,stroke-width:4px,color:#fff
             ``` 
-            > Le paquet n'a pas emprunté `R1 > R2 > R4 > R5` ou `R1 > R2 > R3 > R5` car il y a plus de sauts
+            > Le paquet n'a ni emprunté `R1 > R2 > R4 > R5` ni `R1 > R2 > R3 > R5` car il y a plus de sauts
 
 ### Cas 2
 
@@ -192,7 +195,7 @@
             style 1 fill:#BF0000,stroke:#000,stroke-width:4px,color:#fff
             style 5 fill:#0000FF,stroke:#000,stroke-width:4px,color:#fff
             ```  
-            > Le paquet n'a pas emprunté `R1 > R2 > R4 > R5` ou `R1 > R2 > R3 > R5` car il y a plus de sauts, même si le débit est très faible
+            > Le paquet n'a ni emprunté `R1 > R2 > R4 > R5` ni `R1 > R2 > R3 > R5` car il y a plus de sauts, même si le débit est très faible
     === "Erreur"
         ???+fail "Erreur"
             ```mermaid              
