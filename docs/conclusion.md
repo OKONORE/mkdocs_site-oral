@@ -12,7 +12,7 @@
     |La charge ne peut pas être divisée|La charge peut se diviser|
     |Utilise les routes les plus courtes|Utilise les routes les plus rapides|
 
-???+tldr "Contextes d'utilisations"
+???tldr "Contextes d'utilisations"
     |Type d'utilisation|Protocole RIP|Protocole OSPF|Justification|
     |:-:|:-:|:-:|:-:|
     |**dans une maison**|![image](images/oui.jpg){ width=100 }|![image](images/non.jpg){ width=100 }|Une maison n'a pas besoin que des aires soient définies, ce serait trop en faire|
